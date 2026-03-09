@@ -3,9 +3,10 @@ import { getFriendlyErrorMessage } from '../utils/errorHandler';
 
 // const API_BASE_URL = "https://islamicdecotweb.onrender.com";
 // const API_BASE_URL = "https://backend.kiswahmakkahstore.com";
-const API_BASE_URL = "https://spice-backend-9jml.onrender.com";
-// const API_BASE_URL = "http://localhost:8080";
+// const API_BASE_URL = "https://spice-backend-9jml.onrender.com";
+const API_BASE_URL = "http://localhost:8080";
 // 
+
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
