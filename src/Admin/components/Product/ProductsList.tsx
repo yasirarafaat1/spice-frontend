@@ -139,6 +139,7 @@ export default function ProductsList() {
         if (!window.confirm('Are you sure you want to delete this product? This action cannot be undone.')) {
             return;
         }
+        
 
         setDeletingProductId(productId);
         try {
