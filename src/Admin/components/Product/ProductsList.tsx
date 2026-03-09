@@ -140,8 +140,6 @@ export default function ProductsList() {
             return;
         }
 
-
-        
         setDeletingProductId(productId);
         try {
             await adminAPI.deleteProduct(productId);
